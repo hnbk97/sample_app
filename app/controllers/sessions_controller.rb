@@ -5,9 +5,14 @@ class SessionsController < ApplicationController
     user = User.find_by email: params[:session][:email].downcase
 
     if user && user.authenticate(params[:session][:password])
-      login_user user
+      if user.activated?
+        login_remember user
+      else
+        flash[:warning] = t "account_not_activated"
+        redirect_to root_url
+      end
     else
-      flash.now[:danger] = t "sessions.new.invalid"
+      flash[:danger] = t "sessions.new.invalid"
       render :new
     end
   end
@@ -17,9 +22,13 @@ class SessionsController < ApplicationController
     redirect_to root_url
   end
 
-  def login_user user
+  def login_remember user
     log_in user
-    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_to user
+    if params[:session][:remember_me] == Settings.remember.yeah
+      remember user
+    else
+      forget user
+    end
+    redirect_back_or user
   end
 end

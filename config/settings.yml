@@ -7,3 +7,5 @@ gravatar:
   user_size: 50
 page:
   page_item: 10
+remember:
+  yeah: "1"
