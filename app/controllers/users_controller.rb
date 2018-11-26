@@ -26,6 +26,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.all.page(params[:page])
+                       .per Settings.page.page_item
     return if @user
     flash[:danger] = t "static_pages.home.notfound"
     redirect_to root_path
