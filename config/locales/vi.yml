@@ -1,7 +1,32 @@
 vi:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "không được để trống"
+              invalid: "không hợp lệ"
+              taken: "đã được sử dụng"
+            name:
+              blank: "không được để trống"
+            password:
+              blank: "không được để trống"
+              too_short: "quá ngắn"
+            password_confirmation:
+              confirmation: "không trùng khớp"
+
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
   helpers:
      application_helper:
       ruby: "Ứng dụng ruby sample app"
+
   static_pages:
     about: 
       about: "Về chúng tôi"
@@ -23,12 +48,18 @@ vi:
       this: "Đây là trang chủ cho ứng dụng mẫu"
       sample: ""
       ruby: "Hướng dẫn ruby on rails"
-      wel: "Chào mừng đến ứng dụng mẫu"
+      wel: "Chào mừng đến ứng dụng mẫu!"
       sign: "Đăng ký ngay!"
+      fail: "Đăng ký thất bại"
+      notfound: "Người dùng không tồn tại"
     contact:
       contact: "Liên hệ"
-      page: "trang liên hệ"
-      des: "liên hệ với Ruby on Rails Tutorial về sample app tại"
+      des: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+      page: "Trang liên hệ"
+  shared:
+    _error_messages:
+        the: "Biểu mẫu gồm "
+        er: "lỗi"
   layouts:
     application:
       english: "Tiếng Anh"
@@ -49,3 +80,5 @@ vi:
     new:
       signup: "Đăng ký"
       this: "Đây sẽ là trang đăng ký cho người dùng mới."
+      create: "Tạo tài khoản"
+      confirmation: "Xác nhận mật khẩu"
