@@ -1,4 +1,7 @@
 vi:
+  helpers:
+     application_helper:
+      ruby: "Ứng dụng ruby sample app"
   static_pages:
     about: 
       about: "Về chúng tôi"
@@ -20,10 +23,29 @@ vi:
       this: "Đây là trang chủ cho ứng dụng mẫu"
       sample: ""
       ruby: "Hướng dẫn ruby on rails"
+      wel: "Chào mừng đến ứng dụng mẫu"
+      sign: "Đăng ký ngay!"
+    contact:
+      contact: "Liên hệ"
+      page: "trang liên hệ"
+      des: "liên hệ với Ruby on Rails Tutorial về sample app tại"
   layouts:
     application:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
-  helpers:
-     application_helper:
-      ruby: "Ứng dụng ruby sample app"
+    _footer:
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin mới"
+      the: ""
+      ruby: "Hướng dẫn Ruby on Rails"
+      by: "của"
+    _header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      sample: "Ứng dụng mẫu"
+  users:
+    new:
+      signup: "Đăng ký"
+      this: "Đây sẽ là trang đăng ký cho người dùng mới."
