@@ -15,7 +15,6 @@ vi:
               too_short: "quá ngắn"
             password_confirmation:
               confirmation: "không trùng khớp"
-
     models:
       user: "Người dùng"
     attributes:
@@ -26,7 +25,6 @@ vi:
   helpers:
      application_helper:
       ruby: "Ứng dụng ruby sample app"
-
   static_pages:
     about: 
       about: "Về chúng tôi"
@@ -122,3 +120,16 @@ vi:
       welcome: Chào mừng đến với ứng dụng mẫu! Kích chuột vào liên kết phía dưới để kích hoạt tài khoản
       activate: Kích hoạt
       account_activation: Kích hoạt tài khoản
+  password_reset: Đặt lại mật khẩu
+  reset_instructions: Email đã được gửi với hướng dẫn đặt lại mật khẩu
+  email_not_found: Không tìm thấy đại chỉ Email
+  empty: Không được để trống
+  reseted: Mật khẩu đã được đặt lại.
+  reset_expired: Đặt lại mật khẩu đã quá hạn.
+  to_reset_password: Để đặt lại mật khẩu bấm vào liên kết bên dưới
+  this_link: Liên kết sẽ hết hạn sau 2 giờ.
+  if_did_not: Nếu bạn không yêu cầu đặt lại mật khẩu, hãy phớt lờ email này và mật khẩu của bạn sẽ được giữ nguyên.
+  forgot_password: Quên mật khẩu
+  update_password: Cập nhật mật khẩu
+  submit: Xác nhận
+  password: "Mật khẩu"

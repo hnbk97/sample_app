@@ -9,3 +9,5 @@ page:
   page_item: 10
 remember:
   yeah: "1"
+time:
+  hours_expired: 2
