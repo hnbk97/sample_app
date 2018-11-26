@@ -2,20 +2,28 @@ en:
   static_pages:
     about: 
       about: "About"
-      railstut: "Ruby on Rails Tutorial"
-      book: "Book"
+      the: "The"
+      isa: "is a"
+      book: "book"
+      and: "and"
       screen: "screencast series"
-      rails: "Ruby on rails"
+      teach: "to teach web development with"
+      des: "This is the sample application for the tutorial."
     help:
       help: "Help"
-      railshelp: "Rails Tutorial help section"
-      railstut: "Ruby on Rails tutorial"
-      or: or
+      get: "Get help on the Ruby on Rails Tutorial at the"
+      rails: "Rails Tutorial help section"
+      to: "To get help on this sample app, see the"
+      ruby: "Ruby on Rails Tutorial book"
     home:
       house: "Home"
-      rails: "Ruby on Rails Tutorial"
+      this: "This is the home page for the"
+      sample: "sample application."
+      ruby: "Ruby on Rails Tutorial"
   layouts:
     application:
       english: "English"
-      vietnam: "VietNamese"
-      tie: "| Ruby on Rails Tutorial Sample App"
+      vietnamese: "Vietnamese"
+  helpers:
+    application_helper:
+      ruby: "Ruby application sample app"
