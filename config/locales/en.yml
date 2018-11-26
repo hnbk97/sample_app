@@ -59,8 +59,20 @@ en:
       help: "Help"
       login: "Log in"
       sample: "Sample app"
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Log out
   users:
     new:
       signup: "Sign up"
       create: "Create my account"
       confirmation: "Confirmation"
+  sessions:
+    new:
+      invalid: Invalid email/password combination
+      log: Login
+      sign: Sign up now!
+      new: New user?
+      pass: Password
