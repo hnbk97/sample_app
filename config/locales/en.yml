@@ -1,7 +1,19 @@
 en:
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
   helpers:
     application_helper:
       ruby: "Ruby application sample app"
+  shared:
+    _error_messages:
+      the: "The form contains"
+      er: "error"
   static_pages:
     about: 
       about: "About"
@@ -23,12 +35,14 @@ en:
       this: "This is the home page for the"
       sample: "sample application."
       ruby: "Ruby on Rails Tutorial"
-      wel: "Welcome to the Sample App"
+      wel: "Welcome to the Sample App!"
       sign: "Sign up now!"
+      fail: "Sign up failed"
+      notfound: "user not found"
     contact:
       contact: "Contact"
-      page: "contact page"
       des: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      page: "Contact page"
   layouts:
     application:
       english: "English"
@@ -48,4 +62,5 @@ en:
   users:
     new:
       signup: "Sign up"
-      this: "This will be a signup page for new users."
+      create: "Create my account"
+      confirmation: "Confirmation"
