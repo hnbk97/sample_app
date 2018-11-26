@@ -1,1 +1,21 @@
 en:
+  static_pages:
+    about: 
+      about: "About"
+      railstut: "Ruby on Rails Tutorial"
+      book: "Book"
+      screen: "screencast series"
+      rails: "Ruby on rails"
+    help:
+      help: "Help"
+      railshelp: "Rails Tutorial help section"
+      railstut: "Ruby on Rails tutorial"
+      or: or
+    home:
+      house: "Home"
+      rails: "Ruby on Rails Tutorial"
+  layouts:
+    application:
+      english: "English"
+      vietnam: "VietNamese"
+      tie: "| Ruby on Rails Tutorial Sample App"

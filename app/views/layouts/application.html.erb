@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SampleApp</title>
+    <h2> 
+      <%= link_to t(".english"), locale: "en" %>
+      <%= link_to t(".vietnam"), locale: "vi" %>
+    </h2>
+    <title><%= yield :title %> <%= t ".tie" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
