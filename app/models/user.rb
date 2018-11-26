@@ -16,7 +16,7 @@ class User < ApplicationRecord
     def digest string
       cost = if ActiveModel::SecurePassword.min_cost
                BCrypt::Engine::MIN_COST
-             else 
+             else
                BCrypt::Engine.cost
              end
       BCrypt::Password.create string, cost: cost
@@ -26,7 +26,7 @@ class User < ApplicationRecord
       SecureRandom.urlsafe_base64
     end
   end
-  
+
   def remember
     self.remember_token = User.new_token
     update remember_digest: User.digest(remember_token)
@@ -41,8 +41,12 @@ class User < ApplicationRecord
     update remember_digest: nil
   end
 
-  private 
-  
+  def current_user? user
+    self == user
+  end
+
+  private
+
   def downcase_email
     email.downcase!
   end

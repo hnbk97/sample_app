@@ -52,6 +52,10 @@ vi:
       sign: "Đăng ký ngay!"
       fail: "Đăng ký thất bại"
       notfound: "Người dùng không tồn tại"
+      updated: Hồ sơ đã được cập nhật
+      deleted: Đã xóa người 
+      please: Đăng nhập để tiếp tục.
+      editedfail: Sửa không thành công
     contact:
       contact: "Liên hệ"
       des: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
@@ -87,6 +91,16 @@ vi:
       this: "Đây sẽ là trang đăng ký cho người dùng mới."
       create: "Tạo tài khoản"
       confirmation: "Xác nhận mật khẩu"
+    index:
+      all: Danh sách người dùng
+    user:
+      delete: Xóa
+      sure: Chắc không?
+    edit:
+      edit: Chỉnh sửa người dùng
+      save: Lưu thay đổi
+      change: Thay đổi
+      update: Cập nhật hồ sơ của bạn
   sessions:
     new:
       invalid: Mật khẩu/Email không hợp lệ

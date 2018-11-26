@@ -39,6 +39,10 @@ en:
       sign: "Sign up now!"
       fail: "Sign up failed"
       notfound: "user not found"
+      updated: Profile updated
+      deleted: User deleted
+      please: Please log in.
+      editedfail: Edit fail
     contact:
       contact: "Contact"
       des: "Contact the Ruby on Rails Tutorial about the sample app at the"
@@ -69,6 +73,16 @@ en:
       signup: "Sign up"
       create: "Create my account"
       confirmation: "Confirmation"
+    index:
+      all: All users
+    user:
+      delete: Delete
+      sure: You sure?
+    edit:
+      edit: Edit user
+      save: Save changes
+      change: Change
+      update: Update your profile
   sessions:
     new:
       invalid: Invalid email/password combination
