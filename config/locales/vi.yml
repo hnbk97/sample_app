@@ -1,0 +1,22 @@
+vi:
+  static_pages:
+    about: 
+      about: "Về chúng tôi"
+      railstut: "Hướng dẫn hồng ngọc trên đường ray"
+      book: "Sách"
+      screen: "loạt screencast"
+      rails: "Hồng ngọc trên đường ray"
+    help:
+      help: "Trợ giúp"
+      railshelp: "Khu vực hướng dẫn Rails"
+      railstut: "hướng dẫn ruby on rails"
+      or: "hoặc"
+    home:
+      house: "Trang chính"
+      rails: "Hướng dẫn hồng ngọc trên đường ray"
+  layouts:
+    application:
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+      tie: "| Ứng dụng mẫu hướng dẫn hồng ngọc trên đường ray"
+  
