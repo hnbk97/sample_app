@@ -2,21 +2,28 @@ vi:
   static_pages:
     about: 
       about: "Về chúng tôi"
-      railstut: "Hướng dẫn hồng ngọc trên đường ray"
-      book: "Sách"
-      screen: "loạt screencast"
-      rails: "Hồng ngọc trên đường ray"
+      isa: "là một"
+      book: "cuốn sách"
+      and: "và"
+      the: ""
+      screen: "Bộ ảnh"
+      teach: "để dậy phát triển một trang web với"
+      des: "Đây là một ứng dụng ví dụ dùng cho bài hướng dẫn"
     help:
       help: "Trợ giúp"
-      railshelp: "Khu vực hướng dẫn Rails"
-      railstut: "hướng dẫn ruby on rails"
-      or: "hoặc"
+      get: "Nhận hỗ trợ hướng dẫn Ruby on rails tại"
+      rails: "Khu vực hướng dẫn rails"
+      to: "Để nhận hỗ trợ cho ứng dụng mẫu này, xem"
+      ruby: "Sách hướng dẫn Ruby on Rails"
     home:
       house: "Trang chính"
-      rails: "Hướng dẫn hồng ngọc trên đường ray"
+      this: "Đây là trang chủ cho ứng dụng mẫu"
+      sample: ""
+      ruby: "Hướng dẫn ruby on rails"
   layouts:
     application:
       english: "Tiếng Anh"
-      vietnam: "Tiếng Việt"
-      tie: "| Ứng dụng mẫu hướng dẫn hồng ngọc trên đường ray"
-  
+      vietnamese: "Tiếng Việt"
+  helpers:
+     application_helper:
+      ruby: "Ứng dụng ruby sample app"
