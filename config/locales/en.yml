@@ -1,4 +1,7 @@
 en:
+  helpers:
+    application_helper:
+      ruby: "Ruby application sample app"
   static_pages:
     about: 
       about: "About"
@@ -20,10 +23,29 @@ en:
       this: "This is the home page for the"
       sample: "sample application."
       ruby: "Ruby on Rails Tutorial"
+      wel: "Welcome to the Sample App"
+      sign: "Sign up now!"
+    contact:
+      contact: "Contact"
+      page: "contact page"
+      des: "Contact the Ruby on Rails Tutorial about the sample app at the"
   layouts:
     application:
       english: "English"
       vietnamese: "Vietnamese"
-  helpers:
-    application_helper:
-      ruby: "Ruby application sample app"
+    _footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      the: "The"
+      ruby: "Ruby on Rails Tutorial"
+      by: "by"
+    _header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      sample: "Sample app"
+  users:
+    new:
+      signup: "Sign up"
+      this: "This will be a signup page for new users."
