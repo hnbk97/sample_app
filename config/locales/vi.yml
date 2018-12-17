@@ -76,9 +76,21 @@ vi:
       help: "Trợ giúp"
       login: "Đăng nhập"
       sample: "Ứng dụng mẫu"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
   users:
     new:
       signup: "Đăng ký"
       this: "Đây sẽ là trang đăng ký cho người dùng mới."
       create: "Tạo tài khoản"
       confirmation: "Xác nhận mật khẩu"
+  sessions:
+    new:
+      invalid: Mật khẩu/Email không hợp lệ
+      log: Đăng nhập
+      sign: Đăng ký ngay!
+      new: Người mới?
+      pass: Mật khẩu
