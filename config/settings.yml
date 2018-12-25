@@ -4,3 +4,6 @@ user_validates:
   password_min: 6
 gravatar:
   size: 80
+  user_size: 50
+page:
+  page_item: 10
