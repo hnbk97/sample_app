@@ -91,3 +91,13 @@ en:
       new: New user?
       pass: Password
       remember: Remember me on this computer
+  account_not_activated: Account not activated. Check your email for the activation link.
+  account_activated: Account activated!
+  invalid_activation_link: Invalid activation link!
+  please: Please check your email to activate your account.
+  user_mailer:
+    account_activation:
+      hi: Hi
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
+      activate: Activate
+      account_activation: Account activation

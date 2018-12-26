@@ -109,3 +109,16 @@ vi:
       new: Người mới?
       pass: Mật khẩu
       remember: Nhớ thông tin trên máy tính này
+  account_not_activated: Tài khoản chưa được kích hoạt. Kiểm tra email để kích hoạt tài khoản.
+  account_activated: Tài khoản đã được kích hoạt!
+  invalid_activation_link: Liên kết để kích hoạt không khả dụng
+  views:
+    pagination:
+      truncate: "..."
+  please: Kiểm tra email để kích hoạt tài khoản
+  user_mailer:
+    account_activation:
+      hi: Xin chào
+      welcome: Chào mừng đến với ứng dụng mẫu! Kích chuột vào liên kết phía dưới để kích hoạt tài khoản
+      activate: Kích hoạt
+      account_activation: Kích hoạt tài khoản
