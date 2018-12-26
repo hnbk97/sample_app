@@ -22,6 +22,8 @@ class SessionsController < ApplicationController
     redirect_to root_url
   end
 
+  private
+
   def login_remember user
     log_in user
     if params[:session][:remember_me] == Settings.remember.yeah
