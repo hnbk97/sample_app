@@ -114,3 +114,15 @@ en:
   update_password: Update password
   submit: Submit
   password: "Password"
+  Post: Post
+  Compose: Compose new micropost...
+  Micropost: Micropost Feed
+  micropost: micropost
+  view my profile: view my profile
+  Posted: Posted
+  ago: ago.
+  okay: Success
+  micropost_created: Micropost created!
+  micropost_deleted: Micropost deleted
+  warning_file_size: should be less than 5MB
+  deleted_fail: Delete fail

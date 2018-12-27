@@ -133,3 +133,29 @@ vi:
   update_password: Cập nhật mật khẩu
   submit: Xác nhận
   password: "Mật khẩu"
+  Post: Đăng
+  Compose:  Soạn bài đăng...
+  Micropost: Danh sách bài đăng
+  micropost: Bài đăng
+  view my profile: Xem hồ sơ của tôi
+  datetime:
+    distance_in_words:
+      about_x_hours: 
+        one: Khảng 1 giờ
+        other: khoảng %{count} giờ
+      less_than_x_minutes:
+        one: ít hơn 1 phút
+        other: ít hơn %{count} phút
+      x_minutes:
+        one: khoảng 1 phút
+        other: khoảng %{count} phút
+  Posted: Đã đăng
+  ago: trước.
+  views:
+    pagination:
+      truncate: "..."
+  okay: Thành công
+  micropost_created: Bài đăng đã được tạo!
+  micropost_deleted: Bài đã được xóa
+  warning_file_size: Tệp không được quá 5MB
+  deleted_fail: Xóa thất bại 
