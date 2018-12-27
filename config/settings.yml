@@ -5,9 +5,15 @@ user_validates:
 gravatar:
   size: 80
   user_size: 50
+  gsize: 30
 page:
   page_item: 10
 remember:
   yeah: "1"
 time:
   hours_expired: 2
+micropost:
+  maximum: 140
+resize_to_limit: [400, 400]
+picture_size:
+  size: 5

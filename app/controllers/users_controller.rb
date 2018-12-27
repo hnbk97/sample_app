@@ -26,6 +26,10 @@ class UsersController < ApplicationController
   end
 
   def show
+    @follow = current_user.active_relationships.build
+    @unfollow = current_user.active_relationships.find_by followed_id: @user.id
+    @microposts = @user.microposts.all.page(params[:page])
+                       .per Settings.page.page_item
     return if @user
     flash[:danger] = t "static_pages.home.notfound"
     redirect_to root_path
