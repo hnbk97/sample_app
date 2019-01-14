@@ -5,6 +5,7 @@ user_validates:
 gravatar:
   size: 80
   user_size: 50
+  gsize: 30
 page:
   page_item: 10
 remember:

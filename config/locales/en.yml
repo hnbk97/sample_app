@@ -126,3 +126,7 @@ en:
   micropost_deleted: Micropost deleted
   warning_file_size: should be less than 5MB
   deleted_fail: Delete fail
+  follow: Follow
+  unfollow: Unfollow
+  following: Following
+  followers: Followers

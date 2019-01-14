@@ -159,3 +159,7 @@ vi:
   micropost_deleted: Bài đã được xóa
   warning_file_size: Tệp không được quá 5MB
   deleted_fail: Xóa thất bại 
+  follow: Theo dõi
+  unfollow: Bỏ theo dõi
+  following: Đang theo dõi
+  followers: Những người theo dõi
